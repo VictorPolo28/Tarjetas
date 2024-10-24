@@ -1,0 +1,37 @@
+body {
+    font-family: sans-serif; /* Se seleciona el tipo de letra que semanejara  */
+    margin: 0; /* se eleminan las margenes del body para que ocupe todo el spacio */
+}
+
+.contenedor {  /* se define el contenedor */
+
+    display: flex;  /* se aplica flex box */
+    flex-wrap: wrap; /* ajusta el contenido  apra que no se desborde*/
+    justify-content: space-around; /*Distribuye el  espacio alrededor  de los  elementos */
+    padding: 20px;  /* hace un  ajuste   de  20 px enetre el conetino y el borde */
+}
+
+.tarjeta { /* Seleciona la clase tarjeta*/
+    width: 300px; /* Establece el ancho fijo de cada tarjeta en 300 píxeles */
+    margin: 10px; /* Agrega un margen de 10 píxeles alrededor de cada tarjeta */
+    border: 1px solid #ccc;  /* Establece un borde de 1 píxel  del color selecionado*/
+    padding: 20px;  /* hace un  ajuste   de  20 px enetre el conetino y el borde */
+    border-radius: 5px;  /* Redondea las esquinas de la tarjeta con un radio de 5 píxeles */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Aplica una sombra */
+}
+
+.tarjeta img { /*Selecciona las imágenes dentroentro de la  clase tarjeta */
+    width: 100%;  /* Establece el ancho de la imagen al 100% del contenedor padre*/
+    height: auto; /*ajusta  la altura automatica mente  */
+    display: block;  /* Hace que la imagen se comporte como un bloque, eliminando el espacio debajo de la imagen */
+    border-radius: 5px 5px 0 0;  /* Redondea las esquinas superiores en 5px */
+}
+
+.tarjeta h3 { /* Selecciona los encabezados de nivel 3 dentro de la  clase tarjeta */
+    margin-top: 10px; /* Agrega un margen superior de 10 píxelesa h3*/
+}
+
+.tarjeta p {/* Selecciona los párrafos dentro de la  clase tarjeta */
+    font-size: 0.9em;  /* Establece el tamaño de fuente en 90% del tamaño de fuente base  del body */
+    line-height: 1.5; /* Establece la altura de línea en 1.5 veces */
+}
